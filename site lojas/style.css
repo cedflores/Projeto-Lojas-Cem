@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(224, 162, 27);
+        padding: 15px;
+        overflow: hidden;
+        line-height: 200px;
+        max-height: 200px
+    }
+
+    header > h1 {
+        color: white;
+        font-size: 45px;
+    }
+
+ header > img {
+    width: 250px;
+    height: 190px;
+    background: transparent;
+ }
+
+ #menu-header {
+    display: flex;
+    align-items: center;
+ }
+
+ #list-menu {
+    display: flex;
+    margin-right: 1rem;
+ }
+
+ .item-menu-loja {
+    margin-right: 25px;
+ }
+
+ .item-menu-loja > a:hover {
+    color: rgb(80, 80, 76);
+    transition: 1s;
+ }
+
+ .item-menu-loja > a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+ }
+
+ #btn-loja {
+    display: flex;
+ }
+
+ #btn-loja > button {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+ }
+
+ #btn-loja > button > a {
+    display: flex;
+    align-items: center;
+ }
+
+ #btn-loja > button > a > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+ }
+
+ #btn-loja > button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+ }
+
+ #img-destaque {
+    padding: 260px;
+    background-image: url(imagens/Ampliação-da-Lojas-Cem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .img-div {
+    padding: 25px;
+    background-image: url(imagens/footer\ imagem.avif);
+    background-position: center;
+    background-size: auto;
+ }
+
+ main > section > h2 {
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+ }
+
+ #clientes {
+    background-color: white;
+    margin-top: 0;
+    padding: 50px;
+ }
+
+ .line {
+    margin: 0 auto;
+    width: 20%;
+ }
+
+ #clientes-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+ }
+
+ .clientes-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .clientes-item > img {
+    width: 84px;
+    height: 84px;
+ }
+
+ .clientes-item > h3 {
+    font-family:"Dancing Script, cursive";
+    font-size: 32px;
+    align-items: center;
+    margin-top: 10px;
+ }
+
+ .clientes-item > p {
+    font-family:"Dancing Script, cursive";
+    font-size: 26px;
+    margin-top: 10px;
+    align-items: center;
+ }
+
+ #featured-produtos {
+    background: linear-gradient(180deg, #e9a56d 8.33%, rgba(244, 200, 175, 0) 100%);
+    padding: 30px;
+ }
+
+ .produtos {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+
+ .img-produto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+ }
+
+.produtos > .img-product {
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+ .title-produtos {
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 22px;
+ }
+
+ #featured-produtos > a {
+    text-decoration: none;
+    font-family:contatos ;
+    font-size: 20px;
+    color: red;
+    justify-content: center;
+    margin-left: 40rem;
+ }
+
+ #featured-produtos > a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+    transition: 1s;
+ }
+
+ #sobre-nos {
+   background-image: url(imagens/fundo-topo-sobre-nos.jpg)  ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   padding: 120px;
+ }
+
+ #sobre-nos > h3 {
+   color: black;
+   font-size: 64px;
+   text-align: center;
+   font-family: 'Ubuntu', 'sans-serif';
+ }
+
+ #sobre-nos > p {
+   font-family:'Ubuntu', 'sans-serif' ;
+   font-weight: 500;
+   color: black;
+   font-size: 22px;
+   margin-top: 2em;
+   text-align: left;
+ }
+
+ footer {
+   padding: 80px;
+   background-image: url(imagens/atendimento\ ao\ cliente.png);
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ footer > ul {
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ footer > h2 {
+   color: black;
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 1rem;
+ }
+
+ .item-menu-footer {
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+ }
+
+ .item-menu-footer > img {
+   width: 80px;
+   height: 80px;
+ }
+
+ .item-menu-footer > p {
+   color: black;
+   font-size: 24px;
+   font-weight: bold;
+   margin-left: 10px;
+ }
+
+
+
